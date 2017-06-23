@@ -59,10 +59,10 @@ public class WebConnector {
 			driver=new InternetExplorerDriver();
 	} else if(brname.equals("chrome")){
 				
- 
-		System.setProperty("webdriver.chrome.driver", 
-				"C:\\Users\\neslavath\\Downloads\\RajSeleniumCucumber\\RajSeleniumCucumber\\driver\\chromedriver.exe");
-		driver=new ChromeDriver(); 
+			driver=new HtmlUnitDriver();
+		//System.setProperty("webdriver.chrome.driver", 
+		//		"C:\\Users\\neslavath\\Downloads\\RajSeleniumCucumber\\RajSeleniumCucumber\\driver\\chromedriver.exe");
+		//driver=new ChromeDriver(); 
 		
 	 
 	}else if(brname.equals("Firefox")){
