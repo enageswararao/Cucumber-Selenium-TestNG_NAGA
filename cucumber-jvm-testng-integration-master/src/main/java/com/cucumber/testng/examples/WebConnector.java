@@ -60,8 +60,8 @@ public class WebConnector {
 	} else if(brname.equals("chrome")){
 				
 		//	driver=new HtmlUnitDriver();
-		//System.setProperty("webdriver.chrome.driver", 
-		//		"C:\\Users\\neslavath\\Downloads\\RajSeleniumCucumber\\RajSeleniumCucumber\\driver\\chromedriver.exe");
+		 System.setProperty("webdriver.chrome.driver", 
+		 		(System.getProperty("user.dir")+"\\Driversexe\\chromedriver.exe"));
 		driver=new ChromeDriver(); 
 		
 	 
