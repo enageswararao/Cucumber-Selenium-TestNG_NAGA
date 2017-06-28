@@ -17,7 +17,7 @@ public class WebConnector {
 
 	//initialize properties ifle
 	// logging 
- 
+    // for git hub commit added some commit on code
 	Properties OR=null;
 	Properties QACONFIG=null;
     WebDriver driver;
